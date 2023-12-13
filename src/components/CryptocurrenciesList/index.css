@@ -1,0 +1,88 @@
+.loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100%;
+}
+
+.currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.currency-image {
+  width: 100%;
+}
+
+.currency-list-container {
+  margin-top: 30px;
+  border: 4px solid #00e7ff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-section {
+  background-color: #092e33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 30px;
+  color: #ffffff;
+}
+
+.type {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.usd {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.euro {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 70px;
+}
+.list-container {
+  padding-left: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .currency-list-container {
+    width: 90%;
+  }
+  .top-section {
+    padding: 0px 30px;
+  }
+  .euro {
+    margin-left: 20px;
+  }
+}
